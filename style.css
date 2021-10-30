@@ -655,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #0a0a0a!important;
 }
 
 .container {
@@ -786,6 +786,9 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+.tc-black {
+    color: #0a0a0a!important;
 }
 
 .btn-atomic-tangerine {
