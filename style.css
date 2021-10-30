@@ -984,6 +984,7 @@ h4 {
     }
     .bloc-sm,
     .bloc-md {
+        font-size: 2em;
         padding-left: 0;
         padding-right: 0;
     }
@@ -1028,15 +1029,38 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
+.paragraphe_titre {
+    font-size: 1.5em;
+    max-width: 65%;
+    margin: auto;
+}
+.paragraphe_citation {
+    max-width: 100%;
+}
+.paragraphe_citation p { 
+    font-size: 1.2em;
+    max-width: 85%;
+    margin: auto;
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .paragraphe_titre {
+        font-size: 0.9em;
+        max-width: 80%;
+    }
 }
+
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .paragraphe_titre {
+        font-size: 0.8em;
+        max-width: 100%;
+    }
+}
+
