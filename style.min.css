@@ -553,7 +553,6 @@ a[data-lightbox]:hover img {
 }
 .btn,
 a,
-figcaption,
 h1,
 h2,
 h3,
@@ -565,6 +564,12 @@ p {
     font-family: helvetica;
     font-weight: 400;
     color: #0a0a0a !important;
+}
+figcaption {
+    font-family: helvetica;
+    font-weight: 400;
+    color: #0a0a0a !important;
+    font-size: 14px;
 }
 .container {
     max-width: 1000px;
