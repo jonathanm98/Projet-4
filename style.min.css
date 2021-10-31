@@ -47,10 +47,6 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-.logo-img {
-    width: 215px;
-    height: 40px;
-}
 .bg-b-edge,
 .bg-bl-edge,
 .bg-br-edge,
@@ -121,6 +117,10 @@ a:hover {
 }
 .d-bloc a .icon-md {
     color: rgba(0, 0, 0, 0.6);
+}
+.logo-img {
+    width: 215px!important;
+    height: 40px!important;
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
