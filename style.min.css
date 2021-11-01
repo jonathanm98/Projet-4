@@ -611,6 +611,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 h2 {
     font-size: 22px;
@@ -642,7 +644,6 @@ h4 {
 }
 .footer-txt {
     color: #0a0a0a !important;
-    font-size: 1em;
     padding-bottom: 20px;
 }
 .portfolio-thumb {
